@@ -15,11 +15,15 @@ process_vitals() {
     if [ -f "$ACTIVE_DIR/heart_rate.log" ]; then
         grep "CRITICAL" "$ACTIVE_DIR/heart_rate.log" | \
         awk -F',' '{print $1 "," $2 "," $3}' >> "$REPORT_FILE"
+    else
+        echo "Warning: heart_rate.log not found."
     fi
 
     if [ -f "$ACTIVE_DIR/temperature.log" ]; then
         grep "CRITICAL" "$ACTIVE_DIR/temperature.log" | \
         awk -F',' '{print $1 "," $2 "," $3}' >> "$REPORT_FILE"
+    else
+        echo "Warning: temperature.log not found."
     fi
 
     echo "Critical alerts saved to $REPORT_FILE"
