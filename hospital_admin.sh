@@ -22,3 +22,4 @@ echo "=== KNH Hospital Admin Setup ==="
 initialize_system
 secure_data
 echo "System Environment Secured on $(date)"
+# Joseph work 1
