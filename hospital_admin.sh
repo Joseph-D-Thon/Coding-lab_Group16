@@ -25,3 +25,4 @@ echo "System Environment Secured on $(date)"
 # Joseph work 1
 # Joseph work 2
 # David - securing active_logs with chmod 700
+# ls -l permission display
