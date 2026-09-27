@@ -17,3 +17,4 @@ for log in heart_rate temperature water_usage; do
 done
 echo "Archiving complete"
 ls -lh archived_logs/
+# Ochri - log rotation with timestamp
