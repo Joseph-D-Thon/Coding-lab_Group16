@@ -24,3 +24,4 @@ secure_data
 echo "System Environment Secured on $(date)"
 # Joseph work 1
 # Joseph work 2
+# Honorine - orchestrator calls initialize and secure
