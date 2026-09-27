@@ -16,3 +16,4 @@ water_audit() {
 }
 process_vitals
 water_audit
+# Jeremie - grep CRITICAL
