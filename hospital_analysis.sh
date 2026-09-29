@@ -4,7 +4,7 @@ ACTIVE_DIR="active_logs"
 REPORT_DIR="reports"
 REPORT_FILE="$REPORT_DIR/critical_alerts.txt"
 
-# Member 5: Find and report critical heart rate and temperature alerts
+# Find and report critical heart rate and temperature alerts
 process_vitals() {
     echo "Processing critical vital-sign alerts..."
 
@@ -29,7 +29,7 @@ process_vitals() {
     echo "Critical alerts saved to $REPORT_FILE"
 }
 
-# Member 6: Calculate average water usage for the ICU reserve
+# Calculate average water usage for the ICU reserve
 water_audit() {
     echo
     echo "=========================================="
